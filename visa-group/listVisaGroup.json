@@ -1,0 +1,19 @@
+{
+    "message": "Success",
+    "meta": {
+        "currentPage":1,
+        "lastPage": 1,
+        "perPage": 10,
+        "total": 6
+    }, // by default null
+    "result": [
+        {
+            "uid": "aasdasdsdsd",
+            "name": "Chengens"
+        },
+        {
+            "uid": "ppiljuwww",
+            "name": "Japan"
+        }
+    ]
+}

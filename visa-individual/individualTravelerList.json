@@ -1,0 +1,136 @@
+{
+    "message": "Success retrieving Travelers list!",
+    "meta": {
+      "currentPage": 1,
+      "perPage": 7,
+      "lastPage": 1,
+      "total": 7
+    },
+    "result": [
+      {
+        "uid": "01jjx0bde28xv9ab1jvcb5y656",
+        "title": {
+          "key": "mr",
+          "name": "Mr."
+        },
+        "firstName": "Deonte McClure",
+        "lastName": null,
+        "dateOfBirth": null,
+        "nationality": null,
+        "nik": null,
+        "passportNumber": null,
+        "passportId": null,
+        "isOnline": true,
+        "createdAt": "2025-01-30T18:42:03.000000Z",
+        "updatedAt": "2025-01-30T18:42:03.000000Z"
+      },
+      {
+        "uid": "01jjx0bde6tbg7r37bej6zmwq9",
+        "title": {
+          "key": "mr",
+          "name": "Mr."
+        },
+        "firstName": "Grayce Nolan",
+        "lastName": null,
+        "dateOfBirth": null,
+        "nationality": null,
+        "nik": null,
+        "passportNumber": null,
+        "passportId": null,
+        "isOnline": true,
+        "createdAt": "2025-01-30T18:42:03.000000Z",
+        "updatedAt": "2025-01-30T18:42:03.000000Z"
+      },
+      {
+        "uid": "01jjx0bde7mtxwfpqpbq8p2tjq",
+        "title": {
+          "key": "mr",
+          "name": "Mr."
+        },
+        "firstName": "Kiera Gleason DDS",
+        "lastName": null,
+        "dateOfBirth": null,
+        "nationality": null,
+        "nik": null,
+        "passportNumber": null,
+        "passportId": null,
+        "isOnline": true,
+        "createdAt": "2025-01-30T18:42:03.000000Z",
+        "updatedAt": "2025-01-30T18:42:03.000000Z"
+      },
+      {
+        "uid": "01jjx0bde9dr9r39907g8v6bj4",
+        "title": {
+          "key": "mr",
+          "name": "Mr."
+        },
+        "firstName": "Prof. Ibrahim Wuckert V",
+        "lastName": null,
+        "dateOfBirth": null,
+        "nationality": null,
+        "nik": null,
+        "passportNumber": null,
+        "passportId": null,
+        "isOnline": true,
+        "createdAt": "2025-01-30T18:42:03.000000Z",
+        "updatedAt": "2025-01-30T18:42:03.000000Z"
+      },
+      {
+        "uid": "01jjx0bdea7n151vv5c60rmqke",
+        "title": {
+          "key": "mr",
+          "name": "Mr."
+        },
+        "firstName": "Malinda Altenwerth III",
+        "lastName": null,
+        "dateOfBirth": null,
+        "nationality": null,
+        "nik": null,
+        "passportNumber": null,
+        "passportId": null,
+        "isOnline": true,
+        "createdAt": "2025-01-30T18:42:03.000000Z",
+        "updatedAt": "2025-01-30T18:42:03.000000Z"
+      },
+      {
+        "uid": "01jjx0bdebdxxre5ye64e0f366",
+        "title": {
+          "key": "mr",
+          "name": "Mr."
+        },
+        "firstName": "Daija Nolan",
+        "lastName": null,
+        "dateOfBirth": null,
+        "nationality": null,
+        "nik": null,
+        "passportNumber": null,
+        "passportId": null,
+        "isOnline": true,
+        "createdAt": "2025-01-30T18:42:03.000000Z",
+        "updatedAt": "2025-01-30T18:42:03.000000Z"
+      },
+      {
+        "uid": "01jjx0bdec1s2rsv0nem7ayptr",
+        "title": {
+          "key": "mr",
+          "name": "Mr."
+        },
+        "firstName": "Leo Weimann II",
+        "lastName": null,
+        "dateOfBirth": null,
+        "nationality": null,
+        "nik": null,
+        "passportNumber": null,
+        "passportId": null,
+        "isOnline": true,
+        "createdAt": "2025-01-30T18:42:03.000000Z",
+        "updatedAt": "2025-01-30T18:42:03.000000Z"
+      }
+    ]
+  }
+
+
+// endpoint
+{
+    "endpoint": "travel-management/visa/individual/unassigned-traveler/variant/{publicId}"
+}

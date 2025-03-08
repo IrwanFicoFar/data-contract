@@ -1,0 +1,45 @@
+{
+    "message": "Success retrieving visa grup list!",
+    "meta": {
+      "currentPage": 1,
+      "perPage": 7,
+      "lastPage": 1,
+      "total": 7
+    },
+    "result": [
+        {
+            "uid": "asdasdasd",
+            "groupName": "Visa Group To Japan",
+            "requiredVisa": {
+                "uid": "asdkasdasdjasd",
+                "name": "Japan"
+            },
+            "travelersAmount": 4,
+            "documents": {
+                "key": "partial",
+                "value": "Partial"
+            },
+            "dateOfCompleted": "2025-06-20",
+            "dateOfExpected": "2025-06-20",
+            "dateOfSubmitted": null,
+            "status": {
+                "key": "approved",
+                "value": "Approved"
+            },
+            "groupVisaId": "KHADN-ADJAS",
+            "remarks": "tada sudah oke",
+            "photo": {
+                "visaName": "Chengens",
+                "fileName": "mock-file.pdf",
+                "uid": "asdasdadlknalsd",
+                "url": "https://www.example.com/file"
+            }
+        }
+    ]
+
+}
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/group/variant/variant_uid"
+}

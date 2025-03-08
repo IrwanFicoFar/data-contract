@@ -1,0 +1,75 @@
+{
+    "message": "Success",
+    "result": {
+        "visaIndividualUid": "asdnasdkjasd",
+        "traveler": {
+            "dateOfBrth": "1998-12-21",
+            "firstName": "Walah",
+            "lastName": "Guys",
+            "nationality": {
+              "flag": "ID",
+              "id" : 105,
+              "name": "Indonesia"
+            },
+            "nik": "78**********989",
+            "passport": {
+              "number": "TG****JAD",
+              "uid": "asdasdnasdsad"
+            },
+            "title": {
+              "key": "mr",
+              "value": "Mr."
+            },
+            "travelerType": {
+              "id" : 2,
+              "key": "adult",
+              "name": "Adult (Twin)"
+            },
+            "uid": "aksjdhkasndkajsdkasd"
+        },
+        "requiredVisas": [
+            {
+                "uid": "asdasdasdasd",
+                "name": "Chengens"
+
+            },
+            {
+                "uid": "asdkjadpiouwie",
+                "name": "Korea"
+            }
+        ],
+        "visaProgress": [
+            {
+                "uid" : "kljadsnasdkjnas",
+                "dateOfCompleted": "2025-06-20",
+                "dateOfExpected": "2025-06-20",
+                "dateOfSubmitted": "",
+                "documentStatus": {
+                    "key": "complete",  // "complete" || "partial"
+                    "value": "partial"
+                },
+                "photo": {
+                    "fileName" : "visa-change.pdf",
+                    "uid" : "asdlajsdalmsd",
+                    "url" : "https://www.example.com/file.pdf",
+                    "visaName": "Chengens"
+                },
+                "remarks": "noted",
+                "requiredVisa": {
+                    "uid" : "asdasdasdasd",
+                    "name" : "Chengens"
+                },
+                "status": {
+                    "key" : "approved", // "approved" || "pending" || "denied"
+                    "value" : "Approved"
+                },
+                "visaId" : "ASHDJ1212"
+            }
+        ]
+    }
+}
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/individual/variant/variant_uid/visaIndividualUid"
+}

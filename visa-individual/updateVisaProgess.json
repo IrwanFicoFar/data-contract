@@ -1,0 +1,21 @@
+
+[
+    {
+        "uid" : "kljadsnasdkjnas",
+        "requiredVisaUid": "askdjhasdkhasd",
+        "documentStatus": "complete",
+        "dateOfSubmitted": "2025-06-05",
+        "dateOfExpected": "2025-06-20",
+        "dateOfCompleted": "2025-06-20",
+        "status": "approved",
+        "visaId": "KASDBYWEW",
+        "remarks": "noted",
+        "fileUid": "asdljasdjnkasd"
+    }
+]
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/individual/variant/variant_uid/visaIndividualUid"
+}
+

@@ -1,0 +1,8 @@
+{
+    "travelerUids": ["kasdnkadfdfsd","mklksmdlmlsd"]
+},
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/individual/variant/variant_uid"
+}

@@ -1,0 +1,64 @@
+{
+    "message": "Success",
+    "result": {
+        "visaGroup": {
+            "uid": "asdasdasd",
+            "groupName": "Visa Group To Japan",
+            "requiredVisa": {
+                "uid": "asdkasdasdjasd",
+                "name": "Japan"
+            },
+            "travelersAmount": 4,
+            "documents": {
+                "key": "partial",
+                "value": "Partial"
+            },
+            "dateOfCompleted": "2025-06-20",
+            "dateOfExpected": "2025-06-20",
+            "dateOfSubmitted": null,
+            "status": {
+                "key": "approved",
+                "value": "Approved"
+            },
+            "groupVisaId": "KHADN-ADJAS",
+            "remarks": "tada sudah oke",
+            "photo": {
+                "visaName": "Chengens",
+                "fileName": "mock-file.pdf",
+                "uid": "asdasdadlknalsd",
+                "url": "https://www.example.com/file"
+            }
+        },
+        "documentTravelersProgress": [
+            {
+                "uid" : "kljadsnasdkjnas",
+                "passport": {
+                    "number": "J1122334",
+                    "uid": "asdjkasdnasbdasd"
+                },
+                "traveler": {
+                    "firstName": "John",
+                    "lastName": "Doe",
+                    "uid": "asdlamsdalkmsd"
+                },
+                "documentStatus": {
+                    "key": "complete",  // "complete" || "partial"
+                    "value": "Complete"
+                },
+                "dateOfCompleted": "2025-06-20",
+                "dateOfExpected": "2025-06-20",
+                "dateOfSubmitted": "2025-10-12",
+                "status": {
+                    "key" : "approved", // "approved" || "pending" || "denied"
+                    "value" : "Approved"
+                  },
+                "remarks": "noted",
+            }
+        ]
+    }
+}
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/group/variant/variant_uid/groupVisaUid"
+}

@@ -1,0 +1,21 @@
+{
+    "result": [
+        {
+            "key": "approved",
+            "value": "Approved"
+        },
+        {
+            "key": "pending",
+            "value": "Pending"
+        },
+        {
+            "key": "denied",
+            "value": "Denied"
+        }
+    ]
+}
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/completion-status"
+}

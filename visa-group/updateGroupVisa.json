@@ -1,0 +1,35 @@
+
+{
+    "visaGroupProgress": {
+        "uid" : "kljadsnasdkjnas",
+        "groupName": "Visa Group To Japan",
+        "requiredVisaUid": "askdjhasdkhasd",
+        "travelersAmount": 2,
+        "documentStatus": "complete",
+        "dateOfSubmitted": "2025-06-05",
+        "dateOfExpected": "2025-06-20",
+        "dateOfCompleted": "2025-06-20",
+        "status": "approved",
+        "groupVisaId": "KASDBYWEW",
+        "remarks": "noted",
+        "fileUid": "asdljasdjnkasd"
+    },
+    "documentTravelersProgress": [
+        {
+            "uid" : "kljadsnasdkjnas",
+            "pasportUid": "asdasdasd",
+            "TravelerUid": "adsasdasdads",
+            "documentStatus": "complete",
+            "dateOfSubmitted": "2025-06-05",
+            "dateOfExpected": "2025-06-20",
+            "dateOfCompleted": "2025-06-20",
+            "status": "approved",
+            "remarks": "noted",
+        }
+    ]
+}
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/group/variant/variant_uid/visaGroupUid"
+}

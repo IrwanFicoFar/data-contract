@@ -1,0 +1,65 @@
+{
+    "message": "Success",
+    "meta": {
+        "currentPage":1,
+        "lastPage": 1,
+        "perPage": 10,
+        "total": 6
+    } // by default null,
+    "result": [
+        {
+            "uid": "ansdajbsdakbsdasd", // booking person member
+            "passport": {
+                "number": "G*****78",
+                "uid": "akjhsdaksdnasd"
+            }, // by default null
+            "traveler": {
+                "firstName": "john",
+                "lastName": "Doe",
+                "uid": "aksdbtrteqwtqrw"
+            }, // by default null
+            "visaRequiredAmount": 5,
+            "documentStatus": {
+                "key": "partial",
+                "value": "Partial"
+            }, // by default null
+            "status": [
+                {
+                    "amount": 3,
+                    "key": "approved",
+                    "value": "Apporved"
+                },
+                {
+                    "amount": 2,
+                    "key": "pending",
+                    "value": "Pending"
+                },
+                {
+                    "amount": 0,
+                    "key": "denied",
+                    "value": "Denied"
+                }
+            ], // semua isi tetep dikirim, jadi tidak ada array kosong atau null
+            "photos": [
+                {
+                    "visaName": "Chengens",
+                    "fileName": "mock-file.pdf",
+                    "uid": "asdasdadlknalsd",
+                    "url": "https://www.example.com/file"
+                }, // pdf
+                {
+                    "visaName": "China",
+                    "uid": "kmujnhhjdjj",
+                    "url": "https://www.example.com/file"
+                } // image
+            ], // by default null
+            "createdAt": "2024-11-12T00:00:00Z" , // by default null
+            "updatedAt": "2024-11-12T00:00:00Z" // by default null
+        }
+    ]
+},
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/individual/variant/variant_uid"
+}

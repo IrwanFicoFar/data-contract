@@ -1,0 +1,17 @@
+{
+    "result": [
+        {
+            "key": "complete",
+            "value": "Complete"
+        },
+        {
+            "key": "partial",
+            "value": "Partial"
+        }
+    ]
+}
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/document-status"
+}
