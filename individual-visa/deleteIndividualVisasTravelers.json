@@ -1,0 +1,7 @@
+// no paylod
+
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/individual/variant/variant_uid/individual_uid"
+}
