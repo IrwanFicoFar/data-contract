@@ -15,7 +15,7 @@
                 "name": "Japan"
             },
             "travelersAmount": 4,
-            "documents": {
+            "documentStatus": {
                 "key": "partial",
                 "value": "Partial"
             },
