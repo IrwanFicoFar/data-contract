@@ -1,8 +1,6 @@
-{
-    "uid": "asdkbasdasdasd"
-},
+// no paylod
 
 // endpoint
 {
-    "endpoint": "/travel-management/visa/group/variant/variant_uid"
+    "endpoint": "/travel-management/visa/group/variant/variant_uid/visa_group_uid"
 }
