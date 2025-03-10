@@ -1,0 +1,10 @@
+// body request
+{
+    "name": "Switzerland Visa Group",
+    "requiredVisaUid": "hfjhsjue37472jhshf", // unique across same variant
+}
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/group/variant/variant_uid" // [PUT]
+}
