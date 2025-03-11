@@ -17,3 +17,10 @@
         }
     ]
 }
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/required-visas"
+}
+
+
