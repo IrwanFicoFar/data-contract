@@ -1,0 +1,58 @@
+{
+    "message": "Success retrieving Visa list!",
+    "meta": {
+        "currentPage": 1,
+        "perPage": 2,
+        "lastPage": 1,
+        "total": 2
+    },
+    "result": [
+        {
+            "uid": "fjdhfdjhgjdhgjdhgjd",
+            "document_status": {
+                "key": "partial",
+                "value": "Partial"
+            },
+            "dateOfCompleted": "2025-03-11",
+            "dateOfExpected": "2025-03-11",
+            "dateOfSubmitted": "2025-03-11",
+            "status": {
+                "key": "pending",
+                "value": "Pending"
+            },
+            "remarks": "progress",
+            "traveler": {
+                "uid": "01jjx0bde28xv9ab1jvcb5y656",
+                "firstName": "Deonte McClure",
+                "lastName": null
+            },
+            "passport": null
+        },
+        {
+            "uid": "fjdhfdjhgjdhgjdhgjf",
+            "document_status": {
+                "key": "complete",
+                "value": "Completed"
+            },
+            "dateOfCompleted": "2025-03-11",
+            "dateOfExpected": "2025-03-11",
+            "dateOfSubmitted": "2025-03-11",
+            "status": {
+                "key": "pending",
+                "value": "Pending"
+            },
+            "remarks": "progress",
+            "traveler": {
+                "uid": "01jjx0bde4w2d7f9xswt6vp242",
+                "firstName": "Frankie Spinka",
+                "lastName": null
+            },
+            "passport": null
+        }
+    ]
+}
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/group/members/variant/variant_uid/groupVisaUid"
+}
