@@ -1,0 +1,6 @@
+// no paylod
+
+// endpoint
+{
+    "endpoint": "/travel-management/visa/group/variant/variant_uid/groupVisaUid"
+}
