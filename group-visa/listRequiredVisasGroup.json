@@ -20,7 +20,7 @@
 
 // endpoint
 {
-    "endpoint": "/travel-management/visa/required-visas"
+    "endpoint": "travel-agency/packages/visas/variant/variantUid"
 }
 
 

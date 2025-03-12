@@ -24,7 +24,8 @@
             "traveler": {
                 "uid": "01jjx0bde28xv9ab1jvcb5y656",
                 "firstName": "Deonte McClure",
-                "lastName": null
+                "lastName": null,
+                "nik": "89*******72637"
             },
             "passport": null
         },
@@ -45,7 +46,8 @@
             "traveler": {
                 "uid": "01jjx0bde4w2d7f9xswt6vp242",
                 "firstName": "Frankie Spinka",
-                "lastName": null
+                "lastName": null,
+                "nik": "728*******72637"
             },
             "passport": null
         }
@@ -56,3 +58,4 @@
 {
     "endpoint": "/travel-management/visa/group/members/variant/variant_uid/groupVisaUid"
 }
+
