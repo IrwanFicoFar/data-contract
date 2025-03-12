@@ -1,30 +1,47 @@
 
 {
-    "visaGroupProgress": {
-        "uid" : "kljadsnasdkjnas",
-        "groupName": "Visa Group To Japan",
-        "requiredVisaUid": "askdjhasdkhasd",
-        "travelersAmount": 2,
-        "documentStatus": "complete",
-        "dateOfSubmitted": "2025-06-05",
-        "dateOfExpected": "2025-06-20",
-        "dateOfCompleted": "2025-06-20",
-        "status": "approved",
-        "groupVisaId": "KASDBYWEW",
-        "remarks": "noted",
-        "fileUid": "asdljasdjnkasd"
+    "visaGroup": {
+        "name": "Group Schengen",
+        "requiredVisaUid": "01jnhtnya69xrzdwwsfsr6049v",
+        "documentStatus": "partial",
+        "dateOfSubmitted": null,
+        "dateOfExpected": null,
+        "dateOfCompleted": null,
+        "status": "pending",
+        "visaId": null,
+        "remarks": "on process",
+        "fileUid": "01jp2qkcwgqt033eve4debs7xg"
     },
-    "documentTravelersProgress": [
+    "travelers": [
         {
-            "uid" : "kljadsnasdkjnas",
-            "pasportUid": "asdasdasd",
-            "TravelerUid": "adsasdasdads",
-            "documentStatus": "complete",
-            "dateOfSubmitted": "2025-06-05",
-            "dateOfExpected": "2025-06-20",
-            "dateOfCompleted": "2025-06-20",
+            "uid": "01jjx0bde28xv9ab1jvcb5y656",
+            "documentStatus": "partial",
+            "dateOfSubmitted": null,
+            "dateOfExpected": null,
+            "dateOfCompleted": null,
             "status": "approved",
-            "remarks": "noted",
+            "remarks": "done"
+
+        },
+        {
+            "uid": "01jjx0bde6tbg7r37bej6zmwq9",
+            "documentStatus": "partial",
+            "dateOfSubmitted": null,
+            "dateOfExpected": null,
+            "dateOfCompleted": null,
+            "status": "approved",
+            "remarks": "done"
+
+        },
+        {
+            "uid": "01jjx0bde7mtxwfpqpbq8p2tjq",
+            "documentStatus": "partial",
+            "dateOfSubmitted": null,
+            "dateOfExpected": null,
+            "dateOfCompleted": null,
+            "status": "approved",
+            "remarks": "done"
+
         }
     ]
 }
