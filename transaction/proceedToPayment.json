@@ -1,0 +1,14 @@
+// POST
+
+// request body
+{
+    "bookingGroupUid": "jdkjgkdj3985934869"
+}
+
+// response
+{
+    "message": "Payment has been created successfully",
+    "result": {
+        "uid": "01kwieo21kasdqwfsfd3463"
+    }
+}
