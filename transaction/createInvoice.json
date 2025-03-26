@@ -1,0 +1,21 @@
+// POST
+
+// request body
+{
+    "transactionUid": "asdadoijweoiwerower",
+    "invoiceType": "down_payment"
+}
+
+// response body
+{
+    "message": "Invoice has been created successfully",
+    "result": {
+       "uid": "01kwieo21kasdqwfsfd3463" // uid invoice
+    }
+}
+
+// enum payment status
+key, name :
+
+down_payment, Down Payment
+full_payment, Full Payment

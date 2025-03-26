@@ -9,6 +9,6 @@
 {
     "message": "Payment has been created successfully",
     "result": {
-        "uid": "01kwieo21kasdqwfsfd3463"
+        "uid": "01kwieo21kasdqwfsfd3463" // uid transaction
     }
 }

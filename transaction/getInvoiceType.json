@@ -1,0 +1,32 @@
+// GET
+
+// response body
+{
+    "message": "Invoice has been retrieved successfully",
+    "result": {
+        "fullPayment": {
+            "amountTotal": 2000000,
+        },
+        "downPayment": {
+            "amountTotal": 1000000,
+            "breakDowns": [
+                {
+                    "product": {
+                        "id": 1,
+                        "key": "adult",
+                        "name": "Adult(Twin)"
+                    }, 
+                    "quantity": 2,
+                    "price": 500000,
+                    "subTotal": 1000000, 
+                }
+            ] 
+        }
+    }
+}
+
+// enum payment status
+key, name :
+
+down_payment, Down Payment
+full_payment, Full Payment

@@ -1,0 +1,92 @@
+// GET
+
+
+// response bdy
+{
+    "message": "Transaction has been retrieved successfully",
+    "result": {
+        "transactionUid": "asdadoijweoiwerower",
+        "bookingGroupUid": "01jq319xz2pe1jkakfd1dmfn3b",
+        "bookingPerson": {
+            "isOnline": false,
+            "uid": "01jpm3cfxx1jzwexb57070qdyg",
+            "title": {
+                "key": "ms",
+                "name": "Ms."
+            },
+            "firstName": "Image",
+            "lastName": "Nice",
+            "gender": "female",
+            "email": "imagenice@email.com",
+            "dateOfBirth": "2023-06-01",
+            "nationality": {
+                "id": 14,
+                "name": "Australia",
+                "code": "AU",
+                "flag": "AU"
+            },
+            "phone": {
+                "number": "88179999",
+                "prefix": "+51",
+                "flag": "PE",
+                "country": {
+                    "id": 175,
+                    "name": "Peru"
+                }
+            },
+            "photo": null,
+            "createdAt": "2025-03-18T07:44:42.000000Z",
+            "updatedAt": "2025-03-18T07:44:42.000000Z"
+        },
+        "isOnline": false,
+        "status": {
+            "key": "draft",
+            "name": "Draft"
+        },
+        "createdAt": "2025-03-24T02:56:57.000000Z",
+        "updatedAt": "2025-03-24T02:56:57.000000Z",
+        "lastPaidAt": null,
+        "totalTravelers": 3,
+        "paymentStatus": {
+            "key": "unpaid",
+            "name": "Unpaid"
+        },
+        "proofOfPayment": {
+            "costumerInvoice": "INV/BTA/2025/00001",
+            "invoiceDate": "2025-03-20 13:00:00",
+            "paymentDueDate": "2025-03-21 14:00:00",
+            "transactionLine": [
+                {
+                    "product": {
+                        "id": 1,
+                        "key": "adult",
+                        "name": "Adult(Twin)"
+                    }, // bisa object bisa string
+                    "quantity": 2,
+                    "price": 1000000, // bisa minus
+                    "subTotal": 2000000, 
+                }
+                {
+                    "product": "Discount from agent", // bisa object bisa string
+                    "quantity": 1,
+                    "price": -100000, // bisa minus
+                    "subTotal": -100000, 
+                }
+            ],
+            "paymentSummary": {
+                "amountSubTotal": 1900000,
+                "amountTax": 19000,
+                "amountTotal": 1919000
+            }
+        }
+    }
+}
+
+// enum payment status
+key, name :
+
+unpaid,Unpaid
+down_payment_unpaid,DP Unpaid
+down_payment_paid,DP Paid
+full_payment_unpaid, FP Unpaid
+full_payment_paid, FP Paid

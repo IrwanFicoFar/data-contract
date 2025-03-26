@@ -1,0 +1,16 @@
+// POST
+
+// request body
+{
+    "invoiceUid": "asdadoijweoiwerower",
+    "fileUid": "lasdlasdnasd", // bisa null
+}
+
+// response body
+{
+    "message": "Invoice has been updated successfully",
+    "result": {
+       "uid": "01kwieo21kasdqwfsfd3463" // uid invoice
+    }
+}
+
