@@ -48,16 +48,20 @@
                     "key": "complete",  // "complete" || "partial"
                     "value": "partial"
                 },
-                "photo": {
-                    "fileName" : "visa-change.pdf",
-                    "uid" : "asdlajsdalmsd",
-                    "url" : "https://www.example.com/file.pdf",
-                    "visaName": "Chengens"
-                },
                 "remarks": "noted",
                 "requiredVisa": {
                     "uid" : "asdasdasdasd",
-                    "name" : "Chengens"
+                    "name" : "Korea"
+                },
+                "travelerVisa": {
+                    "uid" : "asdasdasdasf",
+                    "name" : "Korea",
+                    "photo": {
+                        "fileName" : "visa-change.pdf",
+                        "uid" : "asdlajsdalmsd",
+                        "url" : "https://www.example.com/file.pdf",
+                        "visaName": "Chengens"
+                    },
                 },
                 "status": {
                     "key" : "approved", // "approved" || "pending" || "denied"
