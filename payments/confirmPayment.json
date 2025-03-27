@@ -1,5 +1,8 @@
 // POST
 
+// endpoint
+// travel-agency/travel-management/payments/confirm
+
 // request body
 {
     "invoiceUid": "asdadoijweoiwerower",

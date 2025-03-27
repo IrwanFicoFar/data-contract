@@ -1,5 +1,8 @@
 // GET
 
+// endpoint
+// travel-agency/travel-management/invoice/type/{bookingGroupUid}
+
 // response body
 {
     "message": "Invoice has been retrieved successfully",

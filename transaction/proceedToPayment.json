@@ -1,9 +1,7 @@
-// POST
+// PUT
 
-// request body
-{
-    "bookingGroupUid": "jdkjgkdj3985934869"
-}
+// ENDPOINT
+// travel-agency/travel-management/booking-groups/proceed-payment/{bookingGroupUid}
 
 // response
 {

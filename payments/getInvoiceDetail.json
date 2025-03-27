@@ -1,5 +1,8 @@
 // GET
 
+// endpoint
+// travel-agency/travel-management/invoice/{invoiceUid}
+
 // response body
 {
     "message": "payment detail has been retrieved successfully",

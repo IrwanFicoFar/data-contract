@@ -1,4 +1,7 @@
-// POST
+// PUT
+
+// endpoint
+// travel-agency/travel-management/invoice/{bookingGroupUid}
 
 // request body
 {

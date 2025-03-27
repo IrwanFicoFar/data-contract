@@ -1,5 +1,7 @@
 // GET
 
+// endpoint
+// travel-agency/travel-management/transaction/{bookingGroupUid}
 
 // response bdy
 {
