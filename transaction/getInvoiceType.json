@@ -8,32 +8,32 @@
     "message": "Invoice has been retrieved successfully",
     "result": [
          {
-            amountTotal: 10000000,
-            key: "full_payment",
-            name: "Full Payment",
+            "amountTotal": 10000000,
+            "key": "full_payment",
+            "name": "Full Payment",
          },
          {
-            amountTotal: 4900000,
-            breakDowns: [
+            "amountTotal": 4900000,
+            "breakDowns": [
               {
-                price: 5000000,
-                product: {
-                  id: 1,
-                  key: "adult",
-                  name: "Adult(Twin)",
+                "price": 5000000,
+                "product": {
+                  "id": 1,
+                  "key": "adult",
+                  "name": "Adult(Twin)",
                 },
-                quantity: 2,
-                subTotal: 5000000,
+                "quantity": 2,
+                "subTotal": 5000000,
               },
               {
-                price: -100000,
-                product: "discount",
-                quantity: 1,
-                subTotal: -100000,
+                "price": -100000,
+                "product": "discount",
+                "quantity": 1,
+                "subTotal": -100000,
               },
             ],
-            key: "down_payment",
-            name: "Down Payment",
+            "key": "down_payment",
+            "name": "Down Payment",
          },
     ]
 
