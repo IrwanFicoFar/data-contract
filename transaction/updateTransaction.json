@@ -1,0 +1,29 @@
+// PUT
+
+// endpoint
+// travel-agency/travel-management/transaction/{bookingGroupUid}
+
+// request body
+{
+    "transactionLine": [
+        {
+            "uid": "aalsdnoasdnaosd", // jika penambahan baru maka tidak ada uid yang di kirim
+            "product": "Discount from agent", 
+            "price": -100000, // bisa minus
+        },
+        {
+            "product": "Discount from agent", 
+            "quantity": 1,
+            "price": -100000, // bisa minus
+        }
+    ],
+}
+
+// response body
+{
+    "message": "Invoice has been updated successfully",
+    "result": {
+       "uid": "01kwieo21kasdqwfsfd3463" // uid invoice
+    }
+}
+

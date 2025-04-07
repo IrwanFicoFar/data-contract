@@ -19,7 +19,7 @@
                 "uid": "asdladmaldnasnd",
                 "url": "https://www.image.com/example.jpg"
             }
-        }
+        },
         "bookingPerson": {
             "isOnline": false,
             "uid": "01jpm3cfxx1jzwexb57070qdyg",
@@ -70,6 +70,7 @@
             "paymentDueDate": "2025-03-21 14:00:00",
             "transactionLine": [
                 {
+                    "uid": "aalsdnoasdnaosd",
                     "product": {
                         "id": 1,
                         "key": "adult",
@@ -78,8 +79,9 @@
                     "quantity": 2,
                     "price": 1000000, // bisa minus
                     "subTotal": 2000000, 
-                }
+                },
                 {
+                    "uid": "aalsdnoasdnaosd", // jika penambahan baru maka tidak ada uid yang di kirim
                     "product": "Discount from agent", // bisa object bisa string
                     "quantity": 1,
                     "price": -100000, // bisa minus
