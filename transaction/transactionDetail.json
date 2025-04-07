@@ -9,6 +9,17 @@
     "result": {
         "transactionUid": "asdadoijweoiwerower",
         "bookingGroupUid": "01jq319xz2pe1jkakfd1dmfn3b",
+        "package": {
+            "uid": "aosdhhiagwdbayjbd",
+            "name": "Swiss Alpine Heritage: Zurich and Lucerne Expedition",  
+        },
+        "agency": {
+            "uid": "mlmailjwdauded",
+            "photo": {
+                "uid": "asdladmaldnasnd",
+                "url": "https://www.image.com/example.jpg"
+            }
+        }
         "bookingPerson": {
             "isOnline": false,
             "uid": "01jpm3cfxx1jzwexb57070qdyg",
