@@ -68,6 +68,7 @@
                 "name": "Down Payment"
             },
             "photo": {
+                "fileName": "image-example.jpg"
                 "uid": "asdsdmlsadlasd",
                 "url": "https://example"
             } 
