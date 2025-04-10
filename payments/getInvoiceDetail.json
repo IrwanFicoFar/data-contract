@@ -129,6 +129,6 @@
                 "paymentDate": "2025-03-12 18:00:00", // default null
             } 
         }, // default null
-        "amountDue": 1000000,
+        "amountDue": 1000000, // jika belum ada retunr 0, bukan null
     }
 }
