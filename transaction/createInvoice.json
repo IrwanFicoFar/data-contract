@@ -1,7 +1,7 @@
 // PUT
 
 // endpoint
-// travel-agency/travel-management/invoice/{bookingGroupUid}
+// travel-agency/travel-management/invoice/booking-group/{bookingGroupUid}
 
 // request body
 {
