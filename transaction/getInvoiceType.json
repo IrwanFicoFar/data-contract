@@ -1,7 +1,7 @@
 // GET
 
 // endpoint
-// travel-agency/travel-management/invoice/type/{bookingGroupUid}
+// travel-agency/travel-management/invoice/booking-group/{bookingGroupUid}/type
 
 // response body
 {
