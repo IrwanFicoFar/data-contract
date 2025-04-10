@@ -8,6 +8,10 @@
     "message": "payment detail has been retrieved successfully",
     "result": { 
         "invoiceUid": "asdadoijweoiwerower",
+        "paymentType": {
+            "key": "down_payment", // atau "full_payment"
+            "name": "Down Payment" // atau "Full Payment"
+        },
         "bookingGroupUid": "01jq319xz2pe1jkakfd1dmfn3b",
         "bookingPerson": {
             "isOnline": false,
