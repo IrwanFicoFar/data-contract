@@ -1,9 +1,9 @@
 // GET
 
 // endpoint
-// travel-agency/travel-management/transaction/{bookingGroupUid}
+// travel-agency/travel-management/transaction/booking-group/{bookingGroupUid}
 
-// response bdy
+// response body
 {
     "message": "Transaction has been retrieved successfully",
     "result": {
