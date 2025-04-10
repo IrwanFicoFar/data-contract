@@ -12,6 +12,17 @@
             "key": "down_payment", // atau "full_payment"
             "name": "Down Payment" // atau "Full Payment"
         },
+        "package": {
+            "uid": "aosdhhiagwdbayjbd",
+            "name": "Swiss Alpine Heritage: Zurich and Lucerne Expedition",  
+        },
+        "agency": {
+            "uid": "mlmailjwdauded",
+            "photo": {
+                "uid": "asdladmaldnasnd",
+                "url": "https://www.image.com/example.jpg"
+            }
+        },
         "bookingGroupUid": "01jq319xz2pe1jkakfd1dmfn3b",
         "bookingPerson": {
             "isOnline": false,
@@ -101,6 +112,7 @@
             ],
             "paymentConfirmation": {
                 "photo": {
+                    "fileName": "example-file.pdf", 
                     "uid": "asdnasdasdnlasdn",
                     "url": "https://image"
                 }, // atau bisa null
@@ -110,6 +122,7 @@
         "full_payment": {
             "paymentConfirmation": {
                 "photo": {
+                    "fileName": "example-file.png", 
                     "uid": "asdnasdasdnlasdn",
                     "url": "https://image"
                 }, // atau bisa null
