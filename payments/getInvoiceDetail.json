@@ -120,6 +120,7 @@
             } 
         }, // atau bisa null jika belum melakukan pembayaran dp
         "fullPayment": {
+            "amountTotal": 1000000,
             "paymentConfirmation": {
                 "photo": {
                     "fileName": "example-file.png", 
