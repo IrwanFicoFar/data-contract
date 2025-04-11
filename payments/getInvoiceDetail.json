@@ -118,7 +118,7 @@
                 }, // atau bisa null
                 "paymentDate": "2025-03-12 18:00:00", // default null
             } 
-        },
+        }, // atau bisa null jika belum melakukan pembayaran dp
         "fullPayment": {
             "paymentConfirmation": {
                 "photo": {
@@ -128,7 +128,7 @@
                 }, // atau bisa null
                 "paymentDate": "2025-03-12 18:00:00", // default null
             } 
-        }, // default null
+        }, // default null jika belum melakukan pembayaran fp
         "amountDue": 1000000, // jika belum ada retunr 0, bukan null
     }
 }
