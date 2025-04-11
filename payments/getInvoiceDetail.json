@@ -119,7 +119,7 @@
                 "paymentDate": "2025-03-12 18:00:00", // default null
             } 
         },
-        "full_payment": {
+        "fullPayment": {
             "paymentConfirmation": {
                 "photo": {
                     "fileName": "example-file.png", 
