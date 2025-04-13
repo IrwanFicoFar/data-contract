@@ -8,6 +8,7 @@
     "message": "payment detail has been retrieved successfully",
     "result": { 
         "invoiceUid": "asdadoijweoiwerower",
+        "transactionUid": "mgasdytavdjw",
         "paymentType": {
             "key": "down_payment", // atau "full_payment"
             "name": "Down Payment" // atau "Full Payment"
