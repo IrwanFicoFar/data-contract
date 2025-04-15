@@ -64,7 +64,7 @@
             "name": "Unpaid"
         },
         "proofOfPayment": {
-            "costumerInvoice": "INV/BTA/2025/00001",
+            "customerInvoice": "INV/BTA/2025/00001",
             "invoiceDate": "2025-03-20 13:00:00",
             "paymentDueDate": "2025-03-21 14:00:00",
             "transactionLine": [
