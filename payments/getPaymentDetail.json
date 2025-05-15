@@ -68,7 +68,28 @@
                 "name": "Down Payment"
             },
             "photo": {
-                "fileName": "image-example.jpg"
+                "fileName": "image-example.jpg",
+                "uid": "asdsdmlsadlasd",
+                "url": "https://example"
+            } 
+        }
+       ],
+       "travelAgentBills": [
+        {
+          
+            "uid": "kasdakhsdabksbd",
+            "number": "BILL/BTR/2025/00001",
+            "date": "2025-03-29 18:00:00",
+            "paymentStatus": {
+                "key": "unpaid",
+                "name": "Unpaid"
+            },
+            "billType": {
+                "key": "down_payment",
+                "name": "Down Payment"
+            },
+            "photo": {
+                "fileName": "image-example.jpg",
                 "uid": "asdsdmlsadlasd",
                 "url": "https://example"
             } 
