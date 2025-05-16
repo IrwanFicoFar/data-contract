@@ -1,69 +1,56 @@
-// GET
-
-// endpoint
-// travel-agency/travel-management/payments/variant/{variantUid}
-
-// response body
 {
-    "message": "payment list has been retrieved successfully",
+    "message": "Success retrieving Payment list!",
     "meta": {
         "currentPage": 1,
-        "perPage": 7,
+        "perPage": 1,
         "lastPage": 1,
-        "total": 7
-      },
+        "total": 1
+    },
     "result": [
         {
-            "bookingGroupUid": "01jq319xz2pe1jkakfd1dmfn3b",
             "bookingPerson": {
                 "isOnline": false,
-                "uid": "01jpm3cfxx1jzwexb57070qdyg",
+                "uid": "01jjx0bd7vncejf32wje76r6r9",
                 "title": {
-                    "key": "ms",
-                    "name": "Ms."
+                    "key": "mr",
+                    "name": "Mr."
                 },
-                "firstName": "Image",
-                "lastName": "Nice",
-                "gender": "female",
-                "email": "imagenice@email.com",
-                "dateOfBirth": "2023-06-01",
-                "nationality": {
-                    "id": 14,
-                    "name": "Australia",
-                    "code": "AU",
-                    "flag": "AU"
-                },
-                "phone": {
-                    "number": "88179999",
-                    "prefix": "+51",
-                    "flag": "PE",
-                    "country": {
-                        "id": 175,
-                        "name": "Peru"
-                    }
-                },
+                "firstName": "Albertha Morissette MD",
+                "lastName": null,
+                "gender": null,
+                "email": null,
+                "dateOfBirth": null,
+                "nationality": null,
+                "phone": null,
                 "photo": null,
-                "createdAt": "2025-03-18T07:44:42.000000Z",
-                "updatedAt": "2025-03-18T07:44:42.000000Z"
+                "createdAt": "2025-01-31T01:42:03.000000Z",
+                "updatedAt": "2025-01-31T01:42:03.000000Z"
             },
             "isOnline": false,
             "status": {
-                "key": "draft",
-                "name": "Draft"
+                "key": "full_payment_paid",
+                "name": "FP Paid"
             },
-            "createdAt": "2025-03-24T02:56:57.000000Z",
-            "updatedAt": "2025-03-24T02:56:57.000000Z",
-            "lastPaidAt": null,
-            "totalTravelers": 3,
-            "invoice": {
-                "uid": "kasdakhsdabksbd",
-                "number": "INV/BTR/2025/00001",
-                "date": "2025-03-29 18:00:00"
+            "createdAt": "2025-02-01T06:40:58.000000Z",
+            "updatedAt": "2025-02-01T06:40:58.000000Z",
+            "lastPaidAt": {
+                "datetime": "2025-05-15 14:51:27",
+                "timezone": "+07:00"
             },
+            "totalTravelers": 4,
+            "bookingGroupUid": "01jjzbtd28gvs43r8t0hyapqba",
             "paymentStatus": {
-                "key": "unpaid",
-                "name": "Unpaid"
+                "key": "full_payment_paid",
+                "name": "FP Paid"
             },
+            "invoice": {
+                "uid": "01jv9es34vq07p0c0pfdamm7d7",
+                "number": "INV/1234/2025/05/15/00003",
+                "date": {
+                    "datetime": "2025-05-15 14:50:40",
+                    "timezone": "+07:00"
+                }
+            }
         }
     ]
 }
