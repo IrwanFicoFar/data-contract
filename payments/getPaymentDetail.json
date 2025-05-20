@@ -72,6 +72,25 @@
                 },
                 "photo": null
             }
+        ],
+        "travelAgentBills": [
+             {
+                "uid": "01jv9d5ngfmcjjvkhep7azw3mb",
+                "number": "BILL/1234/2025/05/15/00002",
+                "date": {
+                    "datetime": "2025-05-15 14:22:34",
+                    "timezone": "+07:00"
+                },
+                "paymentStatus": {
+                    "key": "down_payment_paid",
+                    "name": "DP Paid"
+                },
+                "type": {
+                    "key": "down_payment",
+                    "name": "Down Payment"
+                },
+                "photo": null
+            }
         ]
     }
 }
