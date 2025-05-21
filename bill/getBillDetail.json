@@ -1,0 +1,113 @@
+{
+    "message": "Success retrieving bill data!",
+    "result": {
+        "bookingPerson": {
+            "isOnline": false,
+            "uid": "01jjx0bde28xv9ab1jvcb5y656",
+            "title": {
+                "key": "mr",
+                "name": "Mr."
+            },
+            "firstName": "Deonte McClure",
+            "lastName": null,
+            "gender": null,
+            "email": null,
+            "dateOfBirth": null,
+            "nationality": {
+                "id": 1,
+                "name": "Afghanistan",
+                "code": "AF",
+                "flag": "AF"
+            },
+            "phone": null,
+            "photo": null,
+            "createdAt": "2025-01-31T01:42:03.000000Z",
+            "updatedAt": "2025-01-31T01:42:03.000000Z"
+        },
+        "isOnline": false,
+        "status": {
+            "key": "full_payment_paid",
+            "name": "FP Paid"
+        },
+        "createdAt": "2025-05-05T20:06:39.000000Z",
+        "updatedAt": "2025-05-05T20:06:39.000000Z",
+        "lastPaidAt": "2025-05-21 02:11:24",
+        "billNumber": "BILL/1234/2025/05/21/00001",
+        "billDate": "2025-05-21T02:10:47.000000Z",
+        "paymentType": {
+            "key": "down_payment",
+            "name": "Down Payment"
+        },
+        "paymentDueDate": "2025-03-28",
+        "paymentStatus": {
+            "key": "down_payment_unpaid",
+            "name": "DP Unpaid"
+        },
+        "transactionLines": [
+            {
+                "uid": "01jvnz6n2qyj13q79jerknekkf",
+                "product": {
+                    "id": 1,
+                    "sequence": 1,
+                    "key": "adult",
+                    "name": "Adult Twin"
+                },
+                "quantity": 1,
+                "price": 5999867,
+                "subTotal": 5999867
+            }
+        ],
+        "fullPayment": {
+            "key": "full_payment",
+            "name": "Full Payment",
+            "paidAmount": 0,
+            "paymentConfirmation": null
+        },
+        "downPayment": {
+            "key": "down_payment",
+            "name": "Down Payment",
+            "breakDowns": [
+                {
+                    "price": 1678937,
+                    "product": {
+                        "id": 1,
+                        "sequence": 1,
+                        "key": "adult",
+                        "name": "Adult Twin"
+                    },
+                    "quantity": 1,
+                    "subTotal": 1678937
+                }
+            ],
+            "paidAmount": 0,
+            "paymentConfirmation": null
+        },
+        "amountDue": 0,
+        "billUid": "01jvr9q2ghb1sjakrn7abpprmq",
+        "paymentSummary": {
+            "amountSubTotal": 1678937,
+            "amountTax": 0,
+            "amountTotal": 1678937,
+            "commission": 0
+        },
+        "banks": [
+            {
+                "sequence": 1,
+                "bankAccount": "Bank Central Asia (BCA)",
+                "bankAccountNumber": "12345678901",
+                "bankAccountHolder": "CHARLIE"
+            },
+            {
+                "sequence": 2,
+                "bankAccount": "Bank Rakyat Indonesia (BRI)",
+                "bankAccountNumber": "12345678901",
+                "bankAccountHolder": "DELTA"
+            }
+        ]
+    }
+}
+
+// endpoint
+{
+    "endpoint": "/travel-management/bil/:billUid"
+}
