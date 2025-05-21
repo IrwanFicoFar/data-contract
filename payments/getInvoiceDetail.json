@@ -163,6 +163,10 @@
         "paymentType": {
             "key": "full_payment",
             "name": "Full Payment"
-        }
+        },
+        "paymentMethod" : {
+            "method": "Virtual Account",
+            "type" : "Bank Central Asia",
+        },
     }
 }
