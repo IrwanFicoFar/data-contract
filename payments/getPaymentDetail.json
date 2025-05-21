@@ -89,7 +89,11 @@
                     "key": "down_payment",
                     "name": "Down Payment"
                 },
-                "photo": null
+                "photo": {
+                    "fileName": "example.jpg",
+                    "url": "www.example.com/image",
+                    "uid": "asdjkandsajsdasd"
+                }
             }
         ]
     }
