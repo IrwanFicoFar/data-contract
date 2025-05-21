@@ -139,5 +139,5 @@
 
 // endpoint
 {
-    "endpoint": "/travel-management/bil/:billUid"
+    "endpoint": "/travel-management/bill/:billUid"
 }
