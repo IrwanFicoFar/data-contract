@@ -31,15 +31,29 @@
         },
         "createdAt": "2025-05-05T20:06:39.000000Z",
         "updatedAt": "2025-05-05T20:06:39.000000Z",
-        "lastPaidAt": "2025-05-21 02:11:24",
+        "lastPaidAt": {
+            "datetime": "2025-05-21 09:11:24",
+            "timezone": "+07:00"
+        },
+        "agency": {
+            "uid": "01jfkd11sjgaq4s3bt8m5cbph6",
+            "photo": {
+                "uid": "01jg0jqankc887rg9wa9vfkhke",
+                "url": "https://paketur-dev.s3.ap-southeast-1.amazonaws.com/travel-agencies/logo/1735186426_1.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATHVQK4THCLC4BWVB%2F20250521%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20250521T054440Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=085baf4eff6980d2f30c3d48282b5c32d142c3bc5da2826f42dce091fa9a0282"
+            },
+            "name": "SuitaTour"
+        },
         "billNumber": "BILL/1234/2025/05/21/00001",
-        "billDate": "2025-05-21T02:10:47.000000Z",
-        "paymentType": {
+        "billDate": {
+            "datetime": "2025-05-21 09:10:47",
+            "timezone": "+07:00"
+        },
+        "paymentMethod": {
             "key": "down_payment",
             "name": "Down Payment"
         },
         "paymentDueDate": "2025-03-28",
-        "paymentStatus": {
+        "fundRelease": {
             "key": "down_payment_unpaid",
             "name": "DP Unpaid"
         },
@@ -92,16 +106,32 @@
         },
         "banks": [
             {
-                "sequence": 1,
-                "bankAccount": "Bank Central Asia (BCA)",
-                "bankAccountNumber": "12345678901",
-                "bankAccountHolder": "CHARLIE"
+                "uid": "01jfkd11svtw3dpsz4740mp0dd",
+                "accountNumber": "12345678901",
+                "holder": "CHARLIE",
+                "bank": {
+                    "id": 1,
+                    "name": "Bank Central Asia (BCA)",
+                    "code": "014",
+                    "created_at": "2024-12-21T01:17:35.000000Z",
+                    "updated_at": "2024-12-21T01:17:35.000000Z"
+                },
+                "createdAt": "2024-12-21T01:24:06.000000Z",
+                "updatedAt": "2024-12-26T13:33:44.000000Z"
             },
             {
-                "sequence": 2,
-                "bankAccount": "Bank Rakyat Indonesia (BRI)",
-                "bankAccountNumber": "12345678901",
-                "bankAccountHolder": "DELTA"
+                "uid": "01jfkd11svtw3dpsz4740mp0de",
+                "accountNumber": "12345678901",
+                "holder": "DELTA",
+                "bank": {
+                    "id": 3,
+                    "name": "Bank Rakyat Indonesia (BRI)",
+                    "code": "002",
+                    "created_at": "2024-12-21T01:17:35.000000Z",
+                    "updated_at": "2024-12-21T01:17:35.000000Z"
+                },
+                "createdAt": "2024-12-21T01:24:06.000000Z",
+                "updatedAt": "2024-12-26T13:33:44.000000Z"
             }
         ]
     }
