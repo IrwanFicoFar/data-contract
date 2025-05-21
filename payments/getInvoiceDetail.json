@@ -42,7 +42,8 @@
             "photo": {
                 "uid": "01jg0jqankc887rg9wa9vfkhke",
                 "url": "https://paketur-dev.s3.ap-southeast-1.amazonaws.com/travel-agencies/logo/1735186426_1.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATHVQK4THCLC4BWVB%2F20250516%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20250516T123010Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=65de9a6d9b5f286d321e726a72bf41e3f4f4d3a9bed6cb598b3f5842b39966b0"
-            }
+            },
+            "name": "SuitaTour",
         },
         "paymentStatus": {
             "key": "full_payment_paid",
