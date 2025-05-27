@@ -166,8 +166,8 @@
             "name": "Full Payment"
         },
         "paymentMethod" : {
-            "method": "Virtual Account",
-            "type" : "Bank Central Asia",
+            "type": "Virtual Account",
+            "method" : "Bank Central Asia",
         },
     }
 }
