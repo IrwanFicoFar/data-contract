@@ -29,6 +29,10 @@
             "key": "full_payment_paid",
             "name": "FP Paid"
         },
+        "paymentStatus": {
+            "key": "full_payment_paid",
+            "name": "FP Paid"
+        },
         "createdAt": "2025-05-05T20:06:39.000000Z",
         "updatedAt": "2025-05-05T20:06:39.000000Z",
         "lastPaidAt": {
