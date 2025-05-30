@@ -76,7 +76,18 @@
         "package": {
             "uid": "01jfkd11sjgaq4s3bt8m5cbph6",
             "name": "Travel Package Name"
-        }
+        },
+        "paymentConfirmation": {
+            "paymentDate": {
+                "datetime": "2025-05-12 18:00:00",
+                "timezone": "+07:00",
+            },
+            "photo": {
+                "fileName": "example-image.pdf",
+                "uid": "asdladmaldnasnd",
+                "url": getRandomImage(),
+            },
+        },
     }
 }
 
