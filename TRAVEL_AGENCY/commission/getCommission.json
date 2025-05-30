@@ -93,5 +93,5 @@
 
 // endpoint
 {
-    "endpoint": "/travel-management/commissioning/:commissioningUid"
+    "endpoint": "/travel-management/commission/:commissioningUid"
 }
