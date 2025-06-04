@@ -85,7 +85,7 @@
             "photo": {
                 "fileName": "example-image.pdf",
                 "uid": "asdladmaldnasnd",
-                "url": getRandomImage(),
+                "url": "https://paketur-dev.s3.ap-southeast-1.amazonaws.com/travel-agencies/logo/1735186426_1.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATHVQK4THCLC4BWVB%2F20250521%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20250521T054440Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=085baf4eff6980d2f30c3d48282b5c32d142c3bc5da2826f42dce091fa9a0282",
             },
         },
     }
