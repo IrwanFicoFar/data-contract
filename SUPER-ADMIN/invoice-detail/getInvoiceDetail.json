@@ -1,0 +1,178 @@
+{
+    "message": "Success retrieving Invoice data!",
+    "result": {
+        "bookingPerson": {
+            "isOnline": false,
+            "uid": "01jjx0bd7vncejf32wje76r6r9",
+            "title": {
+                "key": "mr",
+                "name": "Mr."
+            },
+            "firstName": "Albertha Morissette MD",
+            "lastName": null,
+            "gender": null,
+            "email": null,
+            "dateOfBirth": null,
+            "nationality": null,
+            "phone": null,
+            "photo": null,
+            "createdAt": "2025-01-31T01:42:03.000000Z",
+            "updatedAt": "2025-01-31T01:42:03.000000Z"
+        },
+        "isOnline": false,
+        "status": {
+            "key": "full_payment_paid",
+            "name": "FP Paid"
+        },
+        "createdAt": "2025-02-01T06:40:58.000000Z",
+        "updatedAt": "2025-02-01T06:40:58.000000Z",
+        "lastPaidAt": {
+            "datetime": "2025-05-15 14:51:27",
+            "timezone": "+07:00"
+        },
+        "totalTravelers": 4,
+        "bookingGroupUid": "01jjzbtd28gvs43r8t0hyapqba",
+        "transactionUid": "01jtswcg0q6y3a4d00cs5m60dp",
+        "package": {
+            "uid": "01jng7p9pcxbdrz06c5ryx4syd",
+            "name": "Package Title Dummy Multi Variant 4"
+        },
+        "agency": {
+            "uid": "01jfkd11sjgaq4s3bt8m5cbph6",
+            "photo": {
+                "uid": "01jg0jqankc887rg9wa9vfkhke",
+                "url": "https://paketur-dev.s3.ap-southeast-1.amazonaws.com/travel-agencies/logo/1735186426_1.jpeg?X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIATHVQK4THCLC4BWVB%2F20250516%2Fap-southeast-1%2Fs3%2Faws4_request&X-Amz-Date=20250516T123010Z&X-Amz-SignedHeaders=host&X-Amz-Expires=600&X-Amz-Signature=65de9a6d9b5f286d321e726a72bf41e3f4f4d3a9bed6cb598b3f5842b39966b0"
+            },
+            "name": "SuitaTour",
+        },
+        "paymentStatus": {
+            "key": "full_payment_paid",
+            "name": "FP Paid"
+        },
+        "proofOfPayment": {
+            "customerInvoice": "INV/1234/2025/05/15/00003",
+            "invoiceDate": {
+                "datetime": "2025-05-15 14:50:40",
+                "timezone": "+07:00"
+            },
+            "paymentDueDate": "2025-03-28",
+            "transactionLine": [
+                {
+                    "uid": "01jtswcg1awjzad74vd1777444",
+                    "product": {
+                        "id": 4,
+                        "sequence": 2,
+                        "key": "single",
+                        "name": "Single Supplement"
+                    },
+                    "quantity": 1,
+                    "price": 2599876,
+                    "subTotal": 2599876
+                },
+                {
+                    "uid": "01jtswcg15rm23dj2j43r76n8p",
+                    "product": {
+                        "id": 2,
+                        "sequence": 3,
+                        "key": "child",
+                        "name": "Child"
+                    },
+                    "quantity": 2,
+                    "price": 1567987,
+                    "subTotal": 3135974
+                },
+                {
+                    "uid": "01jtswcg18ny7cgs8fseqh858r",
+                    "product": {
+                        "id": 3,
+                        "sequence": 4,
+                        "key": "child_extra",
+                        "name": "Child Extra Bed"
+                    },
+                    "quantity": 1,
+                    "price": 2999768,
+                    "subTotal": 2999768
+                }
+            ],
+            "paymentSummary": {
+                "amountSubTotal": 8735618,
+                "amountTax": 96092,
+                "amountTotal": 8831710
+            }
+        },
+        "fullPayment": {
+            "key": "full_payment",
+            "name": "Full Payment",
+            "amountTotal": 6782733,
+            "paymentConfirmation": {
+                "photo": null,
+                "paymentDate": {
+                    "datetime": "2025-05-15 14:51:27",
+                    "timezone": "+07:00"
+                }
+            }
+        },
+        "downPayment": {
+            "key": "down_payment",
+            "name": "Down Payment",
+            "breakDowns": [
+                {
+                    "price": 678965,
+                    "product": {
+                        "id": 4,
+                        "sequence": 2,
+                        "key": "single",
+                        "name": "Single Supplement"
+                    },
+                    "quantity": 1,
+                    "subTotal": 678965
+                },
+                {
+                    "price": 345679,
+                    "product": {
+                        "id": 2,
+                        "sequence": 3,
+                        "key": "child",
+                        "name": "Child"
+                    },
+                    "quantity": 2,
+                    "subTotal": 691358
+                },
+                {
+                    "price": 678654,
+                    "product": {
+                        "id": 3,
+                        "sequence": 4,
+                        "key": "child_extra",
+                        "name": "Child Extra Bed"
+                    },
+                    "quantity": 1,
+                    "subTotal": 678654
+                }
+            ],
+            "amountTotal": 2048977,
+            "paymentConfirmation": {
+                "photo": null,
+                "paymentDate": {
+                    "datetime": "2025-05-15 14:24:15",
+                    "timezone": "+07:00"
+                }
+            }
+        },
+        "amountDue": 0,
+        "invoiceUid": "01jv9es34vq07p0c0pfdamm7d7",
+        "paymentType": {
+            "key": "full_payment",
+            "name": "Full Payment"
+        },
+        "paymentMethod" : {
+            "type": "Virtual Account",
+            "method" : "Bank Central Asia",
+        },
+    }
+}
+
+// endpoint
+{
+    "endpoint": "/invoice/:invoiceUid"
+}
